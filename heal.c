@@ -56,8 +56,6 @@ static int __init heal_main(void)
   write_cr0_forced(cr0);
 }
 
-
-
 static void __exit heal_end(void)
 {
   return NULL;
